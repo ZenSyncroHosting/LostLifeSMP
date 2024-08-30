@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "emeraldstuff:block/reinforced_deepslate_bottom",
+    "up": "emeraldstuff:block/reinforced_deepslate_top",
+    "north": "emeraldstuff:block/reinforced_deepslate_side",
+    "east": "emeraldstuff:block/reinforced_deepslate_bottom",
+    "south": "emeraldstuff:block/reinforced_deepslate_bottom",
+    "west": "emeraldstuff:block/reinforced_deepslate_bottom",
+    "particle": "emeraldstuff:block/reinforced_deepslate_bottom"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,90 @@
+{
+  "mod_elements": [
+    {
+      "name": "Reinforceddeepslate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforceddeepslate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/emeraldstuff/recipes/reinforceddeepslate.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldaniumitem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldaniumitem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nemtom/item/EmeraldaniumitemItem.java",
+          "src/main/resources/assets/emeraldstuff/models/item/emeraldaniumitem.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldanium",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldanium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nemtom/block/EmeraldaniumBlock.java",
+          "src/main/resources/assets/emeraldstuff/models/item/emeraldanium.json",
+          "src/main/resources/assets/emeraldstuff/blockstates/emeraldanium.json",
+          "src/main/resources/assets/emeraldstuff/models/block/emeraldanium.json",
+          "src/main/resources/data/emeraldstuff/loot_tables/blocks/emeraldanium.json"
+        ]
+      }
+    },
+    {
+      "name": "Emeraldaniumtab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldaniumtab",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.emeraldstuff.emeraldanium": "Emeraldanium",
+      "item.nemtom.emeraldaniumitem": "Emeraldaniumitem",
+      "item_group.nemtom.emeraldaniumtab": "Emeraldanium",
+      "item_group.emeraldstuff.emeraldaniumtab": "Emeraldanium",
+      "block.nemtom.emeraldanium": "Emeraldanium",
+      "item.emeraldstuff.emeraldaniumitem": "Emeraldanium"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "emeraldstuff",
+    "modName": "Emeraldanium",
+    "version": "1.0.0",
+    "author": "BeeTheCar",
+    "websiteURL": "Azthittedmi?",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Hírdetanyád",
+    "modElementsPackage": "net.mcreator.nemtom"
+  },
+  "mcreatorVersion": 202400232117
+}

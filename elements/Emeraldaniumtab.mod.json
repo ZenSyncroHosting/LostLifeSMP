@@ -1,0 +1,11 @@
+{
+  "_fv": 66,
+  "_type": "tab",
+  "definition": {
+    "name": "Emeraldanium",
+    "icon": {
+      "value": "CUSTOM:Emeraldanium"
+    },
+    "showSearch": true
+  }
+}
