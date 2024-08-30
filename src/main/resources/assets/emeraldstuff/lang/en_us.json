@@ -1,8 +1,10 @@
 {
   "block.emeraldstuff.emeraldanium": "Emeraldanium",
   "item.nemtom.emeraldaniumitem": "Emeraldaniumitem",
+  "item.emeraldstuff.emeraldanium_sw": "Emeraldanium Sword",
   "item_group.nemtom.emeraldaniumtab": "Emeraldanium",
   "item_group.emeraldstuff.emeraldaniumtab": "Emeraldanium",
   "block.nemtom.emeraldanium": "Emeraldanium",
+  "item.emeraldstuff.emeraldanium_pick": "Emeraldanium Pickaxe",
   "item.emeraldstuff.emeraldaniumitem": "Emeraldanium"
 }

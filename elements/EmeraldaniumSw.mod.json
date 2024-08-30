@@ -1,0 +1,38 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "diamond_sword",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Emeraldanium Sword",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Emeraldaniumtab"
+      }
+    ],
+    "efficiency": 50.0,
+    "attackSpeed": 50.0,
+    "enchantability": 22,
+    "damageVsEntity": 14.0,
+    "usageCount": 7500,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": true,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "EmeraldaniumSwLivingEntityIsHitWithTool"
+    }
+  }
+}

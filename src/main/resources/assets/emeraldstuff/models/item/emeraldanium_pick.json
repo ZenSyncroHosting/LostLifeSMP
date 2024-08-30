@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "emeraldstuff:item/diamond_pickaxe"
+  }
+}

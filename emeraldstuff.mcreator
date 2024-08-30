@@ -50,19 +50,102 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "EmeraldaniumPick",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldanium_pick",
+      "metadata": {
+        "files": [
+          "src/main/java/zensyncro/eu/mod/item/EmeraldaniumPickItem.java",
+          "src/main/resources/assets/emeraldstuff/models/item/emeraldanium_pick.json"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldaniumPickBlockDestroyedWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldanium_pick_block_destroyed_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/zensyncro/eu/mod/procedures/EmeraldaniumPickBlockDestroyedWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EmeraldaniumSwLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldanium_sw_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/zensyncro/eu/mod/procedures/EmeraldaniumSwLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EmeraldaniumSw",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldanium_sw",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/emeraldstuff/models/item/emeraldanium_sw.json",
+          "src/main/java/zensyncro/eu/mod/item/EmeraldaniumSwItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:EmeraldaniumPick"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:EmeraldaniumSw"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "block.emeraldstuff.emeraldanium": "Emeraldanium",
       "item.nemtom.emeraldaniumitem": "Emeraldaniumitem",
+      "item.emeraldstuff.emeraldanium_sw": "Emeraldanium Sword",
       "item_group.nemtom.emeraldaniumtab": "Emeraldanium",
       "item_group.emeraldstuff.emeraldaniumtab": "Emeraldanium",
       "block.nemtom.emeraldanium": "Emeraldanium",
+      "item.emeraldstuff.emeraldanium_pick": "Emeraldanium Pickaxe",
       "item.emeraldstuff.emeraldaniumitem": "Emeraldanium"
     }
   },

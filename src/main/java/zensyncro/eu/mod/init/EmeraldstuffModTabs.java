@@ -20,5 +20,7 @@ public class EmeraldstuffModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.emeraldstuff.emeraldaniumtab")).icon(() -> new ItemStack(EmeraldstuffModBlocks.EMERALDANIUM.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(EmeraldstuffModItems.EMERALDANIUMITEM.get());
 				tabData.accept(EmeraldstuffModBlocks.EMERALDANIUM.get().asItem());
+				tabData.accept(EmeraldstuffModItems.EMERALDANIUM_PICK.get());
+				tabData.accept(EmeraldstuffModItems.EMERALDANIUM_SW.get());
 			}).withSearchBar().build());
 }
