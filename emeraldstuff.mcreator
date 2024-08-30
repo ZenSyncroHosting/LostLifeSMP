@@ -20,7 +20,7 @@
       "registry_name": "emeraldaniumitem",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/nemtom/item/EmeraldaniumitemItem.java",
+          "src/main/java/zensyncro/eu/mod/item/EmeraldaniumitemItem.java",
           "src/main/resources/assets/emeraldstuff/models/item/emeraldaniumitem.json"
         ]
       }
@@ -33,7 +33,7 @@
       "registry_name": "emeraldanium",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/nemtom/block/EmeraldaniumBlock.java",
+          "src/main/java/zensyncro/eu/mod/block/EmeraldaniumBlock.java",
           "src/main/resources/assets/emeraldstuff/models/item/emeraldanium.json",
           "src/main/resources/assets/emeraldstuff/blockstates/emeraldanium.json",
           "src/main/resources/assets/emeraldstuff/models/block/emeraldanium.json",
@@ -74,8 +74,7 @@
     "modid": "emeraldstuff",
     "modName": "Emeraldanium",
     "version": "1.0.0",
-    "author": "BeeTheCar",
-    "websiteURL": "Azthittedmi?",
+    "author": "BeeTheCat",
     "license": "MIT License",
     "serverSideOnly": false,
     "requiredMods": [],
@@ -83,8 +82,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
-    "credits": "Hírdetanyád",
-    "modElementsPackage": "net.mcreator.nemtom"
+    "modElementsPackage": "zensyncro.eu.mod"
   },
   "mcreatorVersion": 202400232117
 }

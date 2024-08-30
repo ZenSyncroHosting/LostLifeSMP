@@ -1,4 +1,8 @@
-package net.mcreator.nemtom;
+package zensyncro.eu.mod;
+
+import zensyncro.eu.mod.init.EmeraldstuffModTabs;
+import zensyncro.eu.mod.init.EmeraldstuffModItems;
+import zensyncro.eu.mod.init.EmeraldstuffModBlocks;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -16,10 +20,6 @@ import net.minecraftforge.common.MinecraftForge;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
-
-import net.mcreator.nemtom.init.EmeraldstuffModTabs;
-import net.mcreator.nemtom.init.EmeraldstuffModItems;
-import net.mcreator.nemtom.init.EmeraldstuffModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;

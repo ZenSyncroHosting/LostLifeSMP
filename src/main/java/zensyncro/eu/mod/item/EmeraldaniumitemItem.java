@@ -1,5 +1,5 @@
 
-package net.mcreator.nemtom.item;
+package zensyncro.eu.mod.item;
 
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Item;
