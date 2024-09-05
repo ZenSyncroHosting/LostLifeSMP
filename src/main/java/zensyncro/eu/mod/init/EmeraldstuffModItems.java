@@ -4,6 +4,7 @@
  */
 package zensyncro.eu.mod.init;
 
+import zensyncro.eu.mod.item.ObsidiandustItem;
 import zensyncro.eu.mod.item.EmeraldaniumitemItem;
 import zensyncro.eu.mod.item.EmeraldaniumSwItem;
 import zensyncro.eu.mod.item.EmeraldaniumPickItem;
@@ -24,6 +25,8 @@ public class EmeraldstuffModItems {
 	public static final RegistryObject<Item> EMERALDANIUM_PICK = REGISTRY.register("emeraldanium_pick", () -> new EmeraldaniumPickItem());
 	public static final RegistryObject<Item> EMERALDANIUM_SW = REGISTRY.register("emeraldanium_sw", () -> new EmeraldaniumSwItem());
 	public static final RegistryObject<Item> ORE = block(EmeraldstuffModBlocks.ORE);
+	public static final RegistryObject<Item> OBSIDIANDUST = REGISTRY.register("obsidiandust", () -> new ObsidiandustItem());
+	public static final RegistryObject<Item> NEHEZOBSIDIANBLOCK = block(EmeraldstuffModBlocks.NEHEZOBSIDIANBLOCK);
 
 	// Start of user code block custom items
 	// End of user code block custom items

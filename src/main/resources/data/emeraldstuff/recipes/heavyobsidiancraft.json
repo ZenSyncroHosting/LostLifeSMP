@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond_block"
+    },
+    {
+      "item": "emeraldstuff:obsidiandust"
+    },
+    {
+      "item": "minecraft:diamond_block"
+    },
+    {
+      "item": "emeraldstuff:obsidiandust"
+    },
+    {
+      "item": "emeraldstuff:emeraldaniumitem"
+    },
+    {
+      "item": "emeraldstuff:obsidiandust"
+    },
+    {
+      "item": "minecraft:diamond_block"
+    },
+    {
+      "item": "emeraldstuff:obsidiandust"
+    },
+    {
+      "item": "minecraft:diamond_block"
+    }
+  ],
+  "result": {
+    "item": "emeraldstuff:nehezobsidianblock",
+    "count": 1
+  }
+}

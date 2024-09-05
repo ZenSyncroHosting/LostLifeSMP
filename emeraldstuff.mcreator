@@ -134,10 +134,66 @@
       "metadata": {
         "files": [
           "src/main/java/zensyncro/eu/mod/block/OREBlock.java",
+          "src/main/resources/data/emeraldstuff/forge/biome_modifier/ore_biome_modifier.json",
+          "src/main/resources/data/emeraldstuff/worldgen/placed_feature/ore.json",
           "src/main/resources/data/emeraldstuff/loot_tables/blocks/ore.json",
           "src/main/resources/assets/emeraldstuff/models/block/ore.json",
+          "src/main/resources/data/emeraldstuff/worldgen/configured_feature/ore.json",
           "src/main/resources/assets/emeraldstuff/blockstates/ore.json",
           "src/main/resources/assets/emeraldstuff/models/item/ore.json"
+        ]
+      }
+    },
+    {
+      "name": "Obsidiandust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidiandust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/emeraldstuff/models/item/obsidiandust.json",
+          "src/main/java/zensyncro/eu/mod/item/ObsidiandustItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NehezObsidian",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nehez_obsidian",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/emeraldstuff/recipes/obsidiansmelt.json"
+        ]
+      }
+    },
+    {
+      "name": "Nehezobsidianblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nehezobsidianblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/emeraldstuff/blockstates/nehezobsidianblock.json",
+          "src/main/resources/data/emeraldstuff/loot_tables/blocks/nehezobsidianblock.json",
+          "src/main/resources/assets/emeraldstuff/models/block/nehezobsidianblock.json",
+          "src/main/resources/assets/emeraldstuff/models/item/nehezobsidianblock.json",
+          "src/main/java/zensyncro/eu/mod/block/NehezobsidianblockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Heavyobsidiancraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavyobsidiancraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/emeraldstuff/recipes/heavyobsidiancraft.json"
         ]
       }
     }
@@ -145,6 +201,12 @@
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:Nehezobsidianblock"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Nehezobsidianblock"
+    ],
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:EmeraldaniumPick"
     ],
@@ -152,15 +214,27 @@
       "~CUSTOM:EmeraldaniumSw"
     ]
   },
-  "tab_element_order": {},
+  "tab_element_order": {
+    "CUSTOM:Emeraldaniumtab": [
+      "Emeraldanium",
+      "ORE",
+      "Nehezobsidianblock",
+      "EmeraldaniumSw",
+      "EmeraldaniumPick",
+      "Emeraldaniumitem",
+      "Obsidiandust"
+    ]
+  },
   "language_map": {
     "en_us": {
       "block.emeraldstuff.ore": "Emeraldanium Ore",
+      "block.emeraldstuff.nehezobsidianblock": "Heavy Obsidian",
       "block.emeraldstuff.emeraldanium": "Emeraldanium",
       "item.nemtom.emeraldaniumitem": "Emeraldaniumitem",
       "item.emeraldstuff.emeraldanium_sw": "Emeraldanium Sword",
       "item_group.nemtom.emeraldaniumtab": "Emeraldanium",
       "item_group.emeraldstuff.emeraldaniumtab": "Emeraldanium",
+      "item.emeraldstuff.obsidiandust": "Obsidian dust",
       "block.nemtom.emeraldanium": "Emeraldanium",
       "item.emeraldstuff.emeraldanium_pick": "Emeraldanium Pickaxe",
       "item.emeraldstuff.emeraldaniumitem": "Emeraldanium"

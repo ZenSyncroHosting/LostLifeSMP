@@ -18,10 +18,12 @@ public class EmeraldstuffModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, EmeraldstuffMod.MODID);
 	public static final RegistryObject<CreativeModeTab> EMERALDANIUMTAB = REGISTRY.register("emeraldaniumtab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.emeraldstuff.emeraldaniumtab")).icon(() -> new ItemStack(EmeraldstuffModBlocks.EMERALDANIUM.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(EmeraldstuffModItems.EMERALDANIUMITEM.get());
 				tabData.accept(EmeraldstuffModBlocks.EMERALDANIUM.get().asItem());
-				tabData.accept(EmeraldstuffModItems.EMERALDANIUM_PICK.get());
-				tabData.accept(EmeraldstuffModItems.EMERALDANIUM_SW.get());
 				tabData.accept(EmeraldstuffModBlocks.ORE.get().asItem());
+				tabData.accept(EmeraldstuffModBlocks.NEHEZOBSIDIANBLOCK.get().asItem());
+				tabData.accept(EmeraldstuffModItems.EMERALDANIUM_SW.get());
+				tabData.accept(EmeraldstuffModItems.EMERALDANIUM_PICK.get());
+				tabData.accept(EmeraldstuffModItems.EMERALDANIUMITEM.get());
+				tabData.accept(EmeraldstuffModItems.OBSIDIANDUST.get());
 			}).withSearchBar().build());
 }
