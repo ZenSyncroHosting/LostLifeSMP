@@ -23,6 +23,7 @@ public class EmeraldstuffModItems {
 	public static final RegistryObject<Item> EMERALDANIUM = block(EmeraldstuffModBlocks.EMERALDANIUM);
 	public static final RegistryObject<Item> EMERALDANIUM_PICK = REGISTRY.register("emeraldanium_pick", () -> new EmeraldaniumPickItem());
 	public static final RegistryObject<Item> EMERALDANIUM_SW = REGISTRY.register("emeraldanium_sw", () -> new EmeraldaniumSwItem());
+	public static final RegistryObject<Item> ORE = block(EmeraldstuffModBlocks.ORE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

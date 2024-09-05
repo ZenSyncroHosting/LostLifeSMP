@@ -2,12 +2,12 @@
   "_fv": 66,
   "_type": "block",
   "definition": {
-    "texture": "reinforced_deepslate_bottom",
-    "textureTop": "reinforced_deepslate_top",
-    "textureLeft": "",
-    "textureFront": "reinforced_deepslate_side",
-    "textureRight": "",
-    "textureBack": "",
+    "texture": "deepslate_emerald_ore",
+    "textureTop": "deepslate_emerald_ore",
+    "textureLeft": "deepslate_emerald_ore",
+    "textureFront": "deepslate_emerald_ore",
+    "textureRight": "deepslate_emerald_ore",
+    "textureBack": "deepslate_emerald_ore",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Emeraldanium",
+    "name": "Emeraldanium Ore",
     "specialInformation": {
       "fixedValue": []
     },
@@ -48,7 +48,7 @@
     ],
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Emeraldaniumitem"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -100,7 +100,7 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 7,
+    "luminance": 0,
     "unbreakable": false,
     "vanillaToolTier": "NONE",
     "isBonemealable": false,
@@ -125,13 +125,13 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.COBBLED_DEEPSLATE"
+        "value": "Blocks.DEEPSLATE"
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 1,
-    "frequencyOnChunk": 3,
-    "minGenerateHeight": -60,
-    "maxGenerateHeight": -60
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 2,
+    "minGenerateHeight": -63,
+    "maxGenerateHeight": -20
   }
 }

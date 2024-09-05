@@ -4,6 +4,7 @@
  */
 package zensyncro.eu.mod.init;
 
+import zensyncro.eu.mod.block.OREBlock;
 import zensyncro.eu.mod.block.EmeraldaniumBlock;
 import zensyncro.eu.mod.EmeraldstuffMod;
 
@@ -16,6 +17,7 @@ import net.minecraft.world.level.block.Block;
 public class EmeraldstuffModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, EmeraldstuffMod.MODID);
 	public static final RegistryObject<Block> EMERALDANIUM = REGISTRY.register("emeraldanium", () -> new EmeraldaniumBlock());
+	public static final RegistryObject<Block> ORE = REGISTRY.register("ore", () -> new OREBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

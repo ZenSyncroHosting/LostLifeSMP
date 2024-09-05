@@ -22,5 +22,6 @@ public class EmeraldstuffModTabs {
 				tabData.accept(EmeraldstuffModBlocks.EMERALDANIUM.get().asItem());
 				tabData.accept(EmeraldstuffModItems.EMERALDANIUM_PICK.get());
 				tabData.accept(EmeraldstuffModItems.EMERALDANIUM_SW.get());
+				tabData.accept(EmeraldstuffModBlocks.ORE.get().asItem());
 			}).withSearchBar().build());
 }

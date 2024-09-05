@@ -124,6 +124,22 @@
           "src/main/java/zensyncro/eu/mod/item/EmeraldaniumSwItem.java"
         ]
       }
+    },
+    {
+      "name": "ORE",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore",
+      "metadata": {
+        "files": [
+          "src/main/java/zensyncro/eu/mod/block/OREBlock.java",
+          "src/main/resources/data/emeraldstuff/loot_tables/blocks/ore.json",
+          "src/main/resources/assets/emeraldstuff/models/block/ore.json",
+          "src/main/resources/assets/emeraldstuff/blockstates/ore.json",
+          "src/main/resources/assets/emeraldstuff/models/item/ore.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -139,6 +155,7 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "block.emeraldstuff.ore": "Emeraldanium Ore",
       "block.emeraldstuff.emeraldanium": "Emeraldanium",
       "item.nemtom.emeraldaniumitem": "Emeraldaniumitem",
       "item.emeraldstuff.emeraldanium_sw": "Emeraldanium Sword",

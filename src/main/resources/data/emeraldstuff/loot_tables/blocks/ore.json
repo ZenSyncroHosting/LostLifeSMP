@@ -1,6 +1,6 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "emeraldstuff:blocks/emeraldanium",
+  "random_sequence": "emeraldstuff:blocks/ore",
   "pools": [
     {
       "rolls": 1.0,
@@ -12,7 +12,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "emeraldstuff:emeraldanium"
+          "name": "emeraldstuff:emeraldaniumitem"
         }
       ]
     }

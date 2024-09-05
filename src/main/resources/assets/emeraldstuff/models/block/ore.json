@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "emeraldstuff:block/deepslate_emerald_ore",
+    "up": "emeraldstuff:block/deepslate_emerald_ore",
+    "north": "emeraldstuff:block/deepslate_emerald_ore",
+    "east": "emeraldstuff:block/deepslate_emerald_ore",
+    "south": "emeraldstuff:block/deepslate_emerald_ore",
+    "west": "emeraldstuff:block/deepslate_emerald_ore",
+    "particle": "emeraldstuff:block/deepslate_emerald_ore"
+  },
+  "render_type": "solid"
+}
